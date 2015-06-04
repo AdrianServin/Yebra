@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/consulta" android:state_pressed="true" />
+    <item android:drawable="@drawable/consulta" />
+</selector><!-- From: file:/home/adrian_servin/AndroidStudioProjects/Guarderia/app/src/main/res/drawable/btnconsul.xml -->

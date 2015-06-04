@@ -1,0 +1,147 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_x="5dp"
+        android:layout_y="20dp"
+        android:background="@drawable/logotipo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nombre"
+        android:id="@+id/lblnom"
+        android:layout_x="3dp"
+        android:layout_y="148dp" />
+
+    <EditText
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/txtnom"
+        android:layout_x="100dp"
+        android:layout_y="148dp"
+        android:gravity="center_horizontal"
+        android:enabled="false"
+        android:inputType="text"
+        android:hint="Juan Perez Perez" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Edad"
+        android:id="@+id/lbledad"
+        android:layout_x="3dp"
+        android:layout_y="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="T.S."
+        android:id="@+id/lblsangre"
+        android:layout_x="220dp"
+        android:layout_y="200dp" />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_x="0dp"
+        android:layout_y="60dp"
+        android:enabled="false" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtedad"
+        android:layout_x="60dp"
+        android:layout_y="200dp"
+        android:text="6"
+        android:numeric="integer"
+        android:gravity="center_horizontal"
+        android:enabled="false" />
+
+    <Spinner
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbxedad"
+        android:layout_x="126dp"
+        android:layout_y="200dp"
+        android:entries="@array/edad"
+        android:editable="false"/>
+
+    <Spinner
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbxsan"
+        android:layout_x="250dp"
+        android:layout_y="200dp"
+        android:entries="@array/sangre"
+        android:editable="false"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Auxiliar"
+        android:id="@+id/lblAuxiliar"
+        android:layout_x="3dp"
+        android:layout_y="280dp" />
+
+    <EditText
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/txtaux"
+        android:layout_x="100dp"
+        android:layout_y="280dp"
+        android:text="Juan Perez Perez"
+        android:gravity="center_horizontal"
+        android:enabled="false"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cuidados Especiales"
+        android:id="@+id/lblCuidados"
+        android:layout_x="3dp"
+        android:layout_y="340dp" />
+
+    <EditText
+        android:layout_width="339dp"
+        android:layout_height="64dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/txtcuidados"
+        android:layout_x="3dp"
+        android:layout_y="370dp"
+        android:editable="false" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="@drawable/btnemergencia"
+        android:id="@+id/btnEmerg"
+        android:layout_x="100dp"
+        android:layout_y="443dp"
+        android:text="(686) 2105281"
+        android:gravity="center_horizontal|bottom" />
+
+
+</AbsoluteLayout>
+<!-- From: file:/home/adrian_servin/AndroidStudioProjects/Guarderia/app/src/main/res/layout/consulta1.xml -->

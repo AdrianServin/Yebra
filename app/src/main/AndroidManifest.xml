@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="geek.guarderia" >
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/logotipo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER"
+                    />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".consulta"  android:label="Guarderia" android:screenOrientation="portrait" />
+        <activity android:name=".consulta1" android:label="Guarderia" android:screenOrientation="portrait"/>
+        <activity android:name=".consulpago" android:label="Guarderia" android:screenOrientation="portrait"/>
+        <activity android:name=".consulpago1" android:label="Guarderia" android:screenOrientation="portrait"/>
+        <activity android:name=".addnecesidad" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name=".viewnecesidad" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name=".necesidad" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name=".pagos" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name=".pagosadd" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name=".pagosview" android:label="@string/app_name" android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

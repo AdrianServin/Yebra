@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/adrian_servin/AndroidStudioProjects/Guarderia/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/adrian_servin/AndroidStudioProjects/Guarderia/app/build/intermediates/pre-dexed/debug/classes-db49a1c19d33846f43b2782c42dbee7f7e742f9c.jar" />
+    </item>
+    <item
+        jar="/home/adrian_servin/AndroidStudioProjects/Guarderia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/adrian_servin/AndroidStudioProjects/Guarderia/app/build/intermediates/pre-dexed/debug/classes-f82aa870932407575e9e3fb1007ebe88cc15165d.jar" />
+    </item>
+    <item
+        jar="/home/adrian_servin/AndroidStudioProjects/Guarderia/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/adrian_servin/AndroidStudioProjects/Guarderia/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-ed99d37992cad19a1b7df9c2df95e6f453de2878.jar" />
+    </item>
+    <item
+        jar="/home/adrian_servin/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/adrian_servin/AndroidStudioProjects/Guarderia/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-cf6fac74d8ed69c17d045013bdaa62565488609c.jar" />
+    </item>
+    <item
+        jar="/home/adrian_servin/AndroidStudioProjects/Guarderia/volley/volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/home/adrian_servin/AndroidStudioProjects/Guarderia/app/build/intermediates/pre-dexed/debug/volley-29b71b7ea0c43a6f32c19907c9f66a110015c759.jar" />
+    </item>
+
+</items>

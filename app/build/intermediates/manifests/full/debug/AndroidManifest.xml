@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="geek.guarderia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="geek.guarderia.app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/logotipo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="geek.guarderia.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="geek.guarderia.consulta"
+            android:label="Guarderia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="geek.guarderia.consulta1"
+            android:label="Guarderia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="geek.guarderia.consulpago"
+            android:label="Guarderia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="geek.guarderia.consulpago1"
+            android:label="Guarderia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="geek.guarderia.addnecesidad"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="geek.guarderia.viewnecesidad"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="geek.guarderia.necesidad"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="geek.guarderia.pagos"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="geek.guarderia.pagosadd"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="geek.guarderia.pagosview"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

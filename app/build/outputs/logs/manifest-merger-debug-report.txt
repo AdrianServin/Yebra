@@ -1,0 +1,147 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:4:5
+	android:name
+		ADDED from AndroidManifest.xml:4:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:5:5
+	android:name
+		ADDED from AndroidManifest.xml:5:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:6:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+application
+ADDED from AndroidManifest.xml:8:5
+MERGED from com.android.support:appcompat-v7:22.0.0:22:5
+MERGED from com.android.support:support-v4:22.0.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:12:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:10:9
+	android:icon
+		ADDED from AndroidManifest.xml:11:9
+	android:theme
+		ADDED from AndroidManifest.xml:13:9
+	android:name
+		ADDED from AndroidManifest.xml:9:9
+activity#geek.guarderia.MainActivity
+ADDED from AndroidManifest.xml:15:9
+	android:label
+		ADDED from AndroidManifest.xml:17:13
+	android:name
+		ADDED from AndroidManifest.xml:16:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:18:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:19:17
+	android:name
+		ADDED from AndroidManifest.xml:19:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:20:17
+	android:name
+		ADDED from AndroidManifest.xml:20:27
+activity#geek.guarderia.consulta
+ADDED from AndroidManifest.xml:25:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:25:71
+	android:label
+		ADDED from AndroidManifest.xml:25:45
+	android:name
+		ADDED from AndroidManifest.xml:25:19
+activity#geek.guarderia.consulta1
+ADDED from AndroidManifest.xml:26:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:26:71
+	android:label
+		ADDED from AndroidManifest.xml:26:45
+	android:name
+		ADDED from AndroidManifest.xml:26:19
+activity#geek.guarderia.consulpago
+ADDED from AndroidManifest.xml:27:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:27:72
+	android:label
+		ADDED from AndroidManifest.xml:27:46
+	android:name
+		ADDED from AndroidManifest.xml:27:19
+activity#geek.guarderia.consulpago1
+ADDED from AndroidManifest.xml:28:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:28:73
+	android:label
+		ADDED from AndroidManifest.xml:28:47
+	android:name
+		ADDED from AndroidManifest.xml:28:19
+activity#geek.guarderia.addnecesidad
+ADDED from AndroidManifest.xml:29:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:29:81
+	android:label
+		ADDED from AndroidManifest.xml:29:48
+	android:name
+		ADDED from AndroidManifest.xml:29:19
+activity#geek.guarderia.viewnecesidad
+ADDED from AndroidManifest.xml:30:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:30:82
+	android:label
+		ADDED from AndroidManifest.xml:30:49
+	android:name
+		ADDED from AndroidManifest.xml:30:19
+activity#geek.guarderia.necesidad
+ADDED from AndroidManifest.xml:31:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:31:78
+	android:label
+		ADDED from AndroidManifest.xml:31:45
+	android:name
+		ADDED from AndroidManifest.xml:31:19
+activity#geek.guarderia.pagos
+ADDED from AndroidManifest.xml:32:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:32:74
+	android:label
+		ADDED from AndroidManifest.xml:32:41
+	android:name
+		ADDED from AndroidManifest.xml:32:19
+activity#geek.guarderia.pagosadd
+ADDED from AndroidManifest.xml:33:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:33:77
+	android:label
+		ADDED from AndroidManifest.xml:33:44
+	android:name
+		ADDED from AndroidManifest.xml:33:19
+activity#geek.guarderia.pagosview
+ADDED from AndroidManifest.xml:34:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:34:78
+	android:label
+		ADDED from AndroidManifest.xml:34:45
+	android:name
+		ADDED from AndroidManifest.xml:34:19
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:appcompat-v7:22.0.0:20:5
+MERGED from com.android.support:support-v4:22.0.0:20:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
