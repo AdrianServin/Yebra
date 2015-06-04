@@ -135,7 +135,7 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="70dp"
-        android:background="@drawable/btnemergencia"
+        android:background="@drawable/call"
         android:id="@+id/btnEmerg"
         android:layout_x="100dp"
         android:layout_y="443dp"
